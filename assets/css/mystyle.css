@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.intro {
+  margin: 0;
+  color: white;
+  background: url("../image/background4.jpg");
+  background-size: cover;
+  text-align: center;
+}
+.intro h1 {
+  font-size: 2em;
+  margin: 0 0 1.5em 0;
+  font-family: "Quicksand", sans-serif;
+}
+.intro p {
+  font-size: 1.1em;
+  font-style: initial;
+  line-height: 1.8em;
+  font-family: "Karla", sans-serif;
+  margin: 2.5em 20% 2.5em 20%;
+}
+
+.head {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.navigation ul.nav li.nav-item a {
+  font-family: "Merriweather Sans", sans-serif;
+  color: white;
+}
+.navigation ul.nav li.nav-item a.active {
+  text-decoration: underline;
+  font-weight: bold;
+}
+.navigation ul.nav li.nav-item a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.skills {
+  margin: 0;
+  padding: 1em;
+}
+.skills .skill-progress {
+  margin: 2em 0 2em 0;
+}
+.skills .skill-title {
+  text-decoration: underline;
+  font-weight: bolder;
+  font-family: "Tangerine", cursive;
+}
+
+.projects {
+  margin: 2em 0 2em 0;
+}
+
+footer {
+  padding: 0.5em;
+}
+
+.about {
+  background: url("../image/background3.jpg");
+  background-size: cover;
+  margin: 0;
+  padding: 1em;
+}
+.about .about_title {
+  margin: 0 0 1em 0;
+  color: white;
+  text-decoration: underline;
+  text-decoration-color: orange;
+  text-decoration-line: underline overline;
+}
+.about .about .profile {
+  margin-top: 2em;
+}
+.about .about h4 {
+  padding-top: 1em;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-family: "Merriweather Sans", sans-serif;
+}
+.about .about .about_me {
+  margin: 1em 0 1em 0;
+  padding: 5% 15% 5% 5%;
+  box-shadow: 0px 0px 15px rebeccapurple;
+}
+.about .about .about_me p {
+  color: #333;
+  line-height: 1.7;
+  text-align: justify;
+  font-family: serif;
+  text-shadow: 1px 1px 4px gray;
+}
+
+.skills-admin {
+  max-height: 640px;
+  overflow: auto;
+}
+
+/*# sourceMappingURL=mystyle.css.map */
